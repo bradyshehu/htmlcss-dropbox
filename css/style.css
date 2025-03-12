@@ -40,6 +40,10 @@ a {
 [class*="col"] {
   padding-left: 1rem;
   padding-right: 1rem;
+  /* debug */
+  min-height: 100px;
+  background-color: rgba(255, 0, 0, 0.222);
+  border: 1px dashed black;
 }
 .col-2-3 {
   width: calc(200% / 3);
@@ -51,8 +55,8 @@ a {
 .col-1-1 {
   width: 100%;
 }
-.col-3-5 {
-  width: (300% / 5);
+.col-1-5 {
+  width: (100% / 5);
 }
 .col-2-5 {
   width: calc(200% / 5);
@@ -137,7 +141,7 @@ main h2 {
 .plan {
   padding: 2rem 1rem;
 }
-.plan a {
+main a {
   text-decoration: underline;
   color: blue;
 }
