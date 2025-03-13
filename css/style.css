@@ -256,28 +256,3 @@ footer .slash {
 .italian {
   margin: 0rem 0.5rem;
 }
-.salient::before {
-  font-family: FontAwesome;
-  content: "\f00c";
-  color: #1e6fdd;
-  margin-right: 0.3rem;
-  font-weight: bolder;
-}
-.space::before {
-  font-family: FontAwesome;
-  content: "\f07b";
-  margin-right: 0.3rem;
-  font-weight: bolder;
-}
-.extra::before {
-  font-family: FontAwesome;
-  content: "\f1e0";
-  margin-right: 0.3rem;
-  font-weight: bolder;
-}
-.users::before {
-  font-family: FontAwesome;
-  content: "\f007";
-  margin-right: 0.3rem;
-  font-weight: bolder;
-}
