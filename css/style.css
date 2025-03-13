@@ -114,6 +114,9 @@ main p {
 }
 /* MAIN PLANS */
 /* PAYMENT */
+main h3 {
+  font-size: 1.5rem;
+}
 
 main h2 {
   font-size: 2.5rem;
@@ -137,26 +140,23 @@ main h2 {
   margin-right: 1rem;
 }
 /* PLAN */
-/* .card {
-  display: flex;
-  flex-direction: column;
-} */
+
+.card {
+  height: 100%;
+  border: 1px solid gray;
+}
 
 .card-head {
   padding: 1rem 0rem;
   text-align: center;
   background-color: white;
-  border: 1px solid gray;
-  border-bottom: 0px;
+  border-bottom: 1px solid gray;
 }
 .card-main {
   background-color: white;
-  border: 1px solid gray;
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
 }
-.card-main h3 {
-  font-size: 1.5rem;
-}
+
 .card-main .price {
   font-weight: bold;
   margin: 1rem auto;
@@ -186,6 +186,36 @@ main a {
 .card-main b {
   font-size: 1rem;
 }
+
+.col-2-3 .card-main p {
+  font-weight: bolder;
+  margin: 1rem auto;
+}
+.col-2-3 .card-main .description {
+  margin-top: 4rem;
+}
+.col-1-1 .card-head {
+  border: 1px solid gray;
+  border-bottom: 0px;
+}
+.office {
+  margin-top: 4rem;
+}
+
+/* PARTNER */
+.partners {
+  margin: 16rem auto;
+}
+.partner-content {
+  padding-top: 2rem;
+}
+
+.button.secondary {
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+}
+
 /* FOOTER */
 footer {
   background-color: ;
