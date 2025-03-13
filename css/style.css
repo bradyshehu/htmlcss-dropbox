@@ -48,6 +48,9 @@ a {
   background-color: rgba(255, 0, 0, 0.222);
   border: 1px dashed black; */
 }
+h3 {
+  font-size: 1.5rem;
+}
 .col-2-3 {
   width: calc(200% / 3);
   position: relative;
@@ -110,17 +113,13 @@ main p {
 }
 .main-header .arrow {
   font-size: 3rem;
-  margin: 80px 0px 20px 0px;
+  margin: 60px 0px 20px 0px;
 }
 /* MAIN PLANS */
 /* PAYMENT */
-main h3 {
-  font-size: 1.5rem;
-}
 
 main h2 {
   font-size: 2.5rem;
-  /* margin: 4rem 0rem; */
 }
 
 .checkbox {
@@ -179,7 +178,7 @@ main a {
   text-decoration: underline;
   color: blue;
 }
-.card-main .slash {
+.slash {
   width: 60px;
   border-top: 1px solid lightgray;
   margin-bottom: 30px;
@@ -229,5 +228,24 @@ main a {
 
 /* FOOTER */
 footer {
-  background-color: ;
+  background-color: #000000;
+  color: white;
+}
+.top-footer {
+  padding: 6rem 0rem;
+}
+footer li {
+  color: white;
+  margin: 1rem 0rem;
+  display: block;
+}
+footer h3 {
+  padding-bottom: 1rem;
+}
+footer .slash {
+  width: 90px;
+  margin: 0px;
+}
+.bottom-footer {
+  padding: 2rem 0rem;
 }
