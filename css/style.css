@@ -156,6 +156,9 @@ main h2 {
   background-color: white;
   padding: 1rem 1rem;
 }
+.card-main-upper {
+  min-height: 360px;
+}
 
 .card-main .price {
   font-weight: bold;
