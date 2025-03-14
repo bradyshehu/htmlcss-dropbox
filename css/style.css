@@ -144,6 +144,7 @@ main h2 {
 .card {
   height: 100%;
   border: 1px solid gray;
+  align-items: center;
 }
 
 .card-head {
@@ -215,6 +216,9 @@ main a {
   border: 1px solid grey;
   color: grey;
 }
+.fa-ul {
+  margin-left: 0.5rem;
+}
 /* INFO */
 .info {
   margin: 4rem 0rem;
@@ -255,4 +259,9 @@ footer .slash {
 }
 .italian {
   margin: 0rem 0.5rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
