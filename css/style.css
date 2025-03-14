@@ -144,7 +144,6 @@ main h2 {
 .card {
   height: 100%;
   border: 1px solid gray;
-  align-items: center;
 }
 
 .card-head {
